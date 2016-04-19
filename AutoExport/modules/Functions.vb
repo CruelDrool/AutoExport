@@ -53,7 +53,7 @@ Module Functions
 
     Friend Function AddOutlookFolder(ByVal FolderName As String, ByVal Parent As Outlook.Folder) As Outlook.Folder
         If Not OutlookFolderExists(FolderName, parent) Then
-            'Parent.Folders.Add(FolderName)
+            Parent.Folders.Add(FolderName)
         End If
         Return CType(Parent.Folders.Item(FolderName), Outlook.Folder)
     End Function
@@ -92,7 +92,7 @@ Module Functions
 
                 Init(AddOutlookFolder(SubFolder, ParentOlFolder), Section & "/" & SubFolder, Path.Combine(sPath, SubFolder), SectionPath, Level + 1, PathFoundAt)
             Next
-        Else
+        ElseIf sPath <> "" Then
             If SectionPath = "" Then
                 'No Path found, use the System Drive (i.e. C:\)
                 SectionPath = SystemDrive

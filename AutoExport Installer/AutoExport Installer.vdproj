@@ -40,13 +40,13 @@
         "Entry"
         {
         "MsmKey" = "8:_21CD95A8C0B78EDA1AAFB1C1F68C7AE3"
-        "OwnerKey" = "8:_08BED34C7C934171B1644000BADCDD37"
+        "OwnerKey" = "8:_009706367C00470C9046D0C9F00D0FEF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_21CD95A8C0B78EDA1AAFB1C1F68C7AE3"
-        "OwnerKey" = "8:_009706367C00470C9046D0C9F00D0FEF"
+        "OwnerKey" = "8:_08BED34C7C934171B1644000BADCDD37"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -124,37 +124,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_009706367C00470C9046D0C9F00D0FEF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0967E998422665E148FE0B0D258F28D8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_459671CFA278BEBC725A2B73177DA854"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_33482700CEDDD1B5620FB94B062A368B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_08BED34C7C934171B1644000BADCDD37"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_230DC79AA276D97B54D71494EB06DC37"
+        "OwnerKey" = "8:_21CD95A8C0B78EDA1AAFB1C1F68C7AE3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -166,7 +136,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_21CD95A8C0B78EDA1AAFB1C1F68C7AE3"
+        "OwnerKey" = "8:_230DC79AA276D97B54D71494EB06DC37"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_08BED34C7C934171B1644000BADCDD37"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_33482700CEDDD1B5620FB94B062A368B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_459671CFA278BEBC725A2B73177DA854"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0967E998422665E148FE0B0D258F28D8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_009706367C00470C9046D0C9F00D0FEF"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -187,6 +187,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -203,6 +211,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -239,11 +255,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.Outlook, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_08BED34C7C934171B1644000BADCDD37"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.Outlook.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.Outlook.dll"
             "TargetName" = "8:"
@@ -270,11 +281,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0967E998422665E148FE0B0D258F28D8"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.v4.0.Framework.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.v4.0.Framework.dll"
             "TargetName" = "8:"
@@ -301,11 +307,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_21CD95A8C0B78EDA1AAFB1C1F68C7AE3"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.dll"
             "TargetName" = "8:"
@@ -332,11 +333,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_230DC79AA276D97B54D71494EB06DC37"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities.dll"
             "TargetName" = "8:"
@@ -363,11 +359,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.Outlook.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_33482700CEDDD1B5620FB94B062A368B"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll"
             "TargetName" = "8:"
@@ -394,11 +385,6 @@
             "AssemblyAsmDisplayName" = "8:stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_3BFE32B2214114521378E57176146744"
-                    {
-                    "Name" = "8:stdole.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:stdole.dll"
             "TargetName" = "8:"
@@ -425,11 +411,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_459671CFA278BEBC725A2B73177DA854"
-                    {
-                    "Name" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime.dll"
             "TargetName" = "8:"
@@ -456,11 +437,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5ACA3C3C5D198DA51622E75EF9A4C665"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.Common.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.Common.dll"
             "TargetName" = "8:"
@@ -699,16 +675,16 @@
                             "Transitive" = "11:FALSE"
                                 "Keys"
                                 {
-                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_D9F366C1DCF743B79A6FF6AD066FBA51"
+                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_6B929731F49B4E62A32126D7C7D13F67"
                                     {
-                                    "Name" = "8:Addins"
+                                    "Name" = "8:Office"
                                     "Condition" = "8:"
                                     "AlwaysCreate" = "11:FALSE"
                                     "DeleteAtUninstall" = "11:FALSE"
                                     "Transitive" = "11:FALSE"
                                         "Keys"
                                         {
-                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_76E93753941345AC95BDE3453D091E2B"
+                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_5FCB15A2E9E74ADA8F81D1249D7D7956"
                                             {
                                             "Name" = "8:Outlook"
                                             "Condition" = "8:"
@@ -717,50 +693,64 @@
                                             "Transitive" = "11:FALSE"
                                                 "Keys"
                                                 {
-                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_2811D25B23C04219933A7586CC787447"
+                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_7FC9A0871ED740369A4BA2EC66518ABF"
                                                     {
-                                                    "Name" = "8:CruelDrool.AutoExport"
+                                                    "Name" = "8:Addins"
                                                     "Condition" = "8:"
                                                     "AlwaysCreate" = "11:FALSE"
-                                                    "DeleteAtUninstall" = "11:TRUE"
+                                                    "DeleteAtUninstall" = "11:FALSE"
                                                     "Transitive" = "11:FALSE"
                                                         "Keys"
                                                         {
+                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_D40BB4B722E34B7DB291F767C141A3E4"
+                                                            {
+                                                            "Name" = "8:CruelDrool.AutoExport"
+                                                            "Condition" = "8:"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "DeleteAtUninstall" = "11:TRUE"
+                                                            "Transitive" = "11:FALSE"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_6626FDD7A3D549BA99330026A52FFED1"
+                                                                    {
+                                                                    "Name" = "8:Description"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:Drag 'n' Drop e-mails into preconfigured folders to export them to the filesystem"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_A96A47126BA04881BF19DBC76304521D"
+                                                                    {
+                                                                    "Name" = "8:LoadBehavior"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:3"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_C20A39C79E6043638DAED7344CCB52AB"
+                                                                    {
+                                                                    "Name" = "8:FriendlyName"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:AutoExport"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_EFA7B4DFE8F64C71B0CD44B38FE330B1"
+                                                                    {
+                                                                    "Name" = "8:Manifest"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:[TARGETDIR]AutoExport.vsto|vstolocal"
+                                                                    }
+                                                                }
+                                                            }
                                                         }
                                                         "Values"
                                                         {
-                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_6626FDD7A3D549BA99330026A52FFED1"
-                                                            {
-                                                            "Name" = "8:Description"
-                                                            "Condition" = "8:"
-                                                            "Transitive" = "11:FALSE"
-                                                            "ValueTypes" = "3:1"
-                                                            "Value" = "8:Drag 'n' Drop e-mails into preconfigured folders to export them to the filesystem"
-                                                            }
-                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_A96A47126BA04881BF19DBC76304521D"
-                                                            {
-                                                            "Name" = "8:LoadBehavior"
-                                                            "Condition" = "8:"
-                                                            "Transitive" = "11:FALSE"
-                                                            "ValueTypes" = "3:3"
-                                                            "Value" = "3:3"
-                                                            }
-                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_C20A39C79E6043638DAED7344CCB52AB"
-                                                            {
-                                                            "Name" = "8:FriendlyName"
-                                                            "Condition" = "8:"
-                                                            "Transitive" = "11:FALSE"
-                                                            "ValueTypes" = "3:1"
-                                                            "Value" = "8:AutoExport"
-                                                            }
-                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_EFA7B4DFE8F64C71B0CD44B38FE330B1"
-                                                            {
-                                                            "Name" = "8:Manifest"
-                                                            "Condition" = "8:"
-                                                            "Transitive" = "11:FALSE"
-                                                            "ValueTypes" = "3:1"
-                                                            "Value" = "8:[TARGETDIR]AutoExport.vsto|vstolocal"
-                                                            }
                                                         }
                                                     }
                                                 }
